@@ -9,14 +9,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "md-links2": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OyukiCV/MEX008-FE-md-link.git"
   },
-  "author": "",
+  "author": "Oyuki c",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OyukiCV/MEX008-FE-md-link/issues"
   },
-  "homepage": "https://github.com/OyukiCV/MEX008-FE-md-link#readme"
+  "homepage": "https://github.com/OyukiCV/MEX008-FE-md-link#readme",
+  "dependencies": {
+    "markdown-link-extractor": "^1.2.1",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.0"
+  }
 }
